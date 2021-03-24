@@ -1,0 +1,210 @@
+{
+    "id": "1508596384171",
+    "customerId": "1.11099774",
+    "status": "ACTIVE",
+    "paymentType": "PRE",
+    "sme": false,
+    "lines": [
+      {
+        "alias": "",
+        "id": "3200989957",
+        "lineAdslId": "3200989957",
+        "customerId": "1.11099774",
+        "contractId": "1508596384171",
+        "billingCenterCode": "",
+        "activationDate": "2020-10-02",
+        "mobile": true,
+        "sme": false,
+        "paymentType": "PRE",
+        "features": [
+          "MOBILE"
+        ],
+        "featuresDescription": "Mobile ricaricabile",
+        "lockedCredentialsRetrieval": false,
+        "lockedAutoLoginFromApps": false,
+        "simCard": {
+          "lineId": "3200989957",
+          "expirationDate": "2022-01-04",
+          "lastRechargeDate": "2020-12-05",
+          "simType": "LTE",
+          "puk": "91472594"
+        },
+        "tariffPlan": {
+          "code": "LIS454",
+          "name": "Basic",
+          "description": "&Egrave; il piano tariffario per chiamare tutti i numeri nazionali senza scatto alla risposta, disponibile sulla nostra Rete Top Quality Network!",
+          "absoluteUrl": "https://www.wind.it/offer/index.php?ropz=LIS454&tipologia=PRE",
+          "status": "ACTIVE",
+          "activationDate": "2020-10-02",
+          "actionLinks": [],
+          "channels": [],
+          "master": "N",
+          "peso": "",
+          "tokenValue": [
+            "CVM_OPZ",
+            "OB_OFFER"
+          ],
+          "dataInsight": {
+            "type": "DATA_TRAFFIC",
+            "message": "Hai ancora a disposizione il <b>62%</b> di <b>100 GB</b> prima che la navigazione sia bloccata. Prossimo rinnovo il <b>01/04/2021</b>",
+            "unitOfMeasure": "GB",
+            "available": 0,
+            "total": 10
+          },
+          "offerDetailTre": []
+        },
+        "options": [
+          {
+            "code": "ROPZ4780",
+            "name": "Start (GA Only)",
+            "description": "L'offerta perfetta con Minuti, SMS e GIGA!  Minuti illimitati verso tutti,  200 SMS verso tutti e 10 GIGA. <br/> Costo: 11.99 euro al mese<br/>Costo di attivazione: 19,99 euro <br/> <br/>Eventuali offerte attive incompatibili con la nuova offerta verranno disattivate.",
+            "absoluteUrl": "https://www.wind.it/offer/index.php?ropz=ROPZ4780_POPZ005033&tipologia=PRE",
+            "status": "ACTIVE",
+            "activationDate": "2020-10-02",
+            "renewalDate": "2021-04-02",
+            "parameters": [],
+            "productParameters": [],
+            "actionLinks": [
+              {
+                "action": "VIEW_BONUS",
+                "label": "Bonus"
+              }
+            ],
+            "channels": [
+              "MOBILE_HP",
+              "MOBILE",
+              "WATCH",
+              "WIDGET",
+              "WEB_HP"
+            ],
+            "master": "N",
+            "peso": "327",
+            "costo": "11.99",
+            "tokenValue": [
+              "CVM_OPZ"
+            ],
+            "tied": {},
+            "insights": [
+              {
+                "type": "SMS",
+                "unitOfMeasure": "NUMBER",
+                "available": 200,
+                "total": 200,
+                "group": "NATIONAL"
+              },
+              {
+                "type": "DATA",
+                "unitOfMeasure": "MB",
+                "available": 0,
+                "total": 10,
+                "group": "NATIONAL"
+              }
+            ],
+            "insightsDescription": "<b>Minuti illimitati</b> e <b>200</b> disponibili. Prossimo rinnovo il <b>02/04/2021</b> ",
+            "popzCode": "POPZ005033",
+            "flagAnagMin": "",
+            "type": "",
+            "treOptionCanDeactivate": false
+          },
+          {
+            "code": "ROPZ4780-RDA",
+            "name": "",
+            "description": "",
+            "absoluteUrl": "https://www.wind.it/offer/index.php?ropz=ROPZ4780-RDA_POPZ005033&tipologia=PRE",
+            "status": "ACTIVE",
+            "activationDate": "2020-10-02",
+            "parameters": [],
+            "productParameters": [],
+            "actionLinks": [
+              {
+                "action": "VIEW_DATA",
+                "label": "Dati"
+              }
+            ],
+            "channels": [],
+            "master": "N",
+            "peso": "",
+            "tokenValue": [],
+            "tied": {},
+            "popzCode": "POPZ005033",
+            "flagAnagMin": "",
+            "type": "",
+            "treOptionCanDeactivate": false
+          },
+          {
+            "code": "ROPZ4703",
+            "name": "Condivisione GIGA",
+            "description": "Tanti GIGA da condividere con le SIM della tua famiglia!",
+            "absoluteUrl": "https://www.wind.it/offer/index.php?ropz=ROPZ4703&tipologia=PRE",
+            "status": "ACTIVE",
+            "activationDate": "2020-10-08",
+            "parameters": [],
+            "productParameters": [],
+            "actionLinks": [
+              {
+                "action": "VIEW_DATA",
+                "label": "Dati"
+              }
+            ],
+            "channels": [],
+            "master": "N",
+            "peso": "",
+            "tokenValue": [
+              "FAM_Figlio"
+            ],
+            "tied": {},
+            "dataInsight": {
+              "type": "SHARED_DATA_TRAFFIC",
+              "message": "<b>60%</b> di <b>100 GB</b> disponibili e condivisi con altre SIM prima che la velocit&agrave; sia ridotta. Prossimo rinnovo il <b>01/04/2021</b>",
+              "unitOfMeasure": "GB",
+              "available": 60,
+              "total": 100
+            },
+            "family": {
+              "rootIntegrationId": "1508646084775",
+              "offerCode": "ROPZ4703",
+              "role": "CHILD",
+              "familyId": "472647777797",
+              "familyCode": "FAM0005"
+            },
+            "flagAnagMin": "",
+            "type": "FAM_Figlio",
+            "treOptionCanDeactivate": false
+          },
+          {
+            "code": "ROPZ90",
+            "name": "Segreteria Telefonica",
+            "description": "&Egrave; il servizio gratuito per Ricaricabile che ti permette di gestire al meglio le tue chiamate.<br/>",
+            "absoluteUrl": "https://www.wind.it/offer/index.php?ropz=ROPZ90&tipologia=PRE",
+            "status": "ACTIVE",
+            "parameters": [],
+            "productParameters": [],
+            "actionLinks": [],
+            "channels": [],
+            "master": "N",
+            "peso": "",
+            "tokenValue": [
+              "PRODOTTO_COMUNE"
+            ],
+            "tied": {},
+            "flagAnagMin": "",
+            "type": "PRODOTTO_COMUNE",
+            "treOptionCanDeactivate": false
+          }
+        ],
+        "services": [],
+        "promos": [],
+        "credit": 54.1,
+        "editAction": {
+          "action": "EDIT",
+          "label": "Modifica",
+          "absoluteUrl": "https://www.wind.it/nuovaAreaClienti/wind/pages/changeOrder/changeOrder.action?type=PRE&menuId=22&serviceId=22&r4125982545858534=4125982545858534&selectedContractNumCode=1508596384171&selectedLine=3200989957&ms=true"
+        },
+        "integrationStack": "LEGACY",
+        "gracePeriod": {}
+      }
+    ],
+    "lineType": "WIND",
+    "scontoFee": false,
+    "flagMigrazione": "N"
+  }
