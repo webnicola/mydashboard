@@ -1,8 +1,17 @@
 <template>
   <div class="home">
-    <h1>{{ text }}</h1>
-    <h2>{{ wind_gb }}/100</h2>
+    <h1 ref="titolo">{{ text }}</h1>
+    <h2 ref="subtitolo">{{ wind_gb }}/100</h2>
     <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
   </div>
 </template>
 
@@ -53,6 +62,7 @@ export default {
     const VUE = this
     console.log('Home component mounted')
     VUE.text = "Essendo variabile cambio 2"
+    console.log(VUE.$refs)
   }
 
 }
