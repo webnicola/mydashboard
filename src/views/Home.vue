@@ -16,7 +16,6 @@
 </template>
 
 <script>
-// prova mamo per commit
 // @ is an alias to /src
 // https://vuejs.org/v2/guide/single-file-components.html
 export default {
