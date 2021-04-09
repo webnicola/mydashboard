@@ -3,22 +3,24 @@
     <the-header logo="Logo Main" />
     <the-nav />
     <router-view/>
+    <the-footer/>
   </div>
 </template>
 <script>
 // @ is an alias to /src
 import TheHeader from '@/components/TheHeader.vue'
 import TheNav from '@/components/TheNav.vue'
+import TheFooter from '@/components/TheFooter.vue'
 
 export default {
   name: 'App',
   components: {
     TheHeader,
-    TheNav
+    TheNav,
+    TheFooter,
   }
 }
 </script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -44,6 +46,5 @@ export default {
 ul {
   list-style-type: none;
   padding: 0;
-  color: lime;
 }
 </style>
