@@ -5,10 +5,13 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    news: null,
+    count: null
   },
   mutations: {
   },
   actions: {
+
   },
   modules: {
   }
