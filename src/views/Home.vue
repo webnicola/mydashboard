@@ -2,27 +2,31 @@
   <div class="home">
     <h1 ref="titolo">{{ text }}</h1>
     <h2 ref="subtitolo">{{ wind_gb }}/100</h2>
-    <button type="button" class="btn btn-primary">Primary</button>
-    <button type="button" class="btn btn-secondary">Secondary</button>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-warning">Warning</button>
-    <button type="button" class="btn btn-info">Info</button>
-    <button type="button" class="btn btn-light">Light</button>
-    <button type="button" class="btn btn-dark">Dark</button>
-
-<button type="button" class="btn btn-link">Link</button>
+    <items className="box2">
+      <item v-for="item in items" :key="item.message">
+        {{ item.message }}
+      </item>
+    </items>  
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 // https://vuejs.org/v2/guide/single-file-components.html
+import Items from '@/components/Items.vue'
+import Item from '@/components/Item.vue'
 export default {
   name: 'Home',
-  components: {},
+  components: {
+    Items,
+    Item,
+  },
   computed: {
     wind_gb: function () {
+      /**
+       * commento documentale JSDoc
+       * {@link https://jsdoc.app}
+       */
       if (this.wind) {
         console.log(this.wind.lines[0].options[2])
 
@@ -35,7 +39,11 @@ export default {
   data () {
     return {
       text : 'Sono una variabile data',
-      wind: null
+      wind: null,
+      items: [
+        { message: 'Foo' },
+        { message: 'Bar' }
+      ]
     }
   },
   methods: {
@@ -56,6 +64,7 @@ export default {
     console.log('Home component created')
     this.text = "Essendo variabile cambio 1"
     this.init()
+    console.log('VUE', this)
 
   },
   mounted() {
